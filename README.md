@@ -17,3 +17,25 @@
 > pip install packages
 > deactivate
 > ```
+
+
+###
+
+pytest 
+    -v => verbose => detailed output
+    -m => marker experssion
+
+```
+ pytest -v -m smoke
+ pytest -v -m "not sanity"
+ pytest -v -m "sanity or stringtest"
+ pytest -v -m "sanity and stringtest"
+
+```
+    -k => keyword
+    --tb=no  => trace back = NO 
+
+```
+pytest -v -k "module" --tb=no 
+pytest -v -k "06 or 05" --tb=no
+```
