@@ -19,7 +19,7 @@
 > ```
 
 
-###
+### Pytest Command Arguements
 
 pytest 
     -v => verbose => detailed output
@@ -39,3 +39,23 @@ pytest
 pytest -v -k "module" --tb=no 
 pytest -v -k "06 or 05" --tb=no
 ```
+    -s ==> print statement
+
+### Jenkins
+
+ShingPanda plugin can be used for pytest
+
+
+### Parameterization
+
+
+### Tracing fixtures
+
+--setup-show
+
+```
+pytest -v -s tests/test_fixtures_03.py --setup-show 
+```
+
+
+
